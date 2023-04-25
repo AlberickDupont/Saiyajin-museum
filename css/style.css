@@ -1,0 +1,1129 @@
+@charset "utf-8";
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+}
+div,
+header,
+nav,
+article,
+section,
+aside,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+figure,
+figcaption,
+class,
+img {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #070707;
+  height: 100%;
+  border: 0 solid transparent;
+  font-size: 16px;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  width: 100%;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+body::-webkit-scrollbar {
+  background-color: #0e0e0e;
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ff0042;
+  height: 150px;
+  padding-top: 10px;
+}
+img,
+object,
+embed,
+canvas,
+video,
+audio,
+picture {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ------------------------------- RECURENTES -- */
+.clear {
+  display: block;
+  zoom: 1;
+}
+.clear:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+section.top {
+  width: 100%;
+  background-color: #070707;
+}
+section.top div.billet {
+  width: 70%;
+  margin: 0 auto;
+}
+section.top div.billet img#logo {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+section.top div.billet span {
+  display: block;
+  height: 1px;
+  background-color: #fdf7ef;
+  width: 100%;
+}
+section.top article.billetterie {
+  margin-top: 60px;
+  margin-right: 60px;
+  background-color: #ff0042;
+  float: right;
+  padding: 5px 15px 5px 10px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+section.top article.billetterie a {
+  font-size: 16px;
+  color: white;
+}
+section.top article.billetterie a img {
+  float: left;
+  width: 26px;
+  margin-right: 5px;
+}
+section.top article.billetterie:hover {
+  background-color: #7a0121;
+}
+section.top article.connect {
+  margin-top: 60px;
+  margin-right: 10px;
+  background-color: #ff0042;
+  float: right;
+  padding: 5px 15px 5px 10px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+section.top article.connect a {
+  font-size: 16px;
+  color: white;
+}
+section.top article.connect a img {
+  float: left;
+  width: 18px;
+  margin-right: 7px;
+}
+section.top article.connect:hover {
+  background-color: #7a0121;
+}
+section.top nav.menu {
+  height: 60px;
+  width: 615px;
+  margin: 0 auto;
+}
+section.top nav.menu ul {
+  font-size: 0;
+}
+section.top nav.menu ul li {
+  display: inline-block;
+  font-size: 27px;
+  width: 200px;
+  margin-right: 5px;
+}
+section.top nav.menu ul li a {
+  display: block;
+  color: #fdf7ef;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.3s;
+}
+section.top nav.menu ul li a:hover {
+  border-bottom: solid 1px #fdf7ef;
+  text-decoration: none;
+}
+section.top nav.menu ul li a.on {
+  border-bottom: solid 1px #fdf7ef;
+}
+section.header {
+  height: 572px;
+  background-image: url(../img/header.webp);
+  padding-top: 200px;
+  padding-left: 80px;
+}
+section.header h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 58px;
+  line-height: 52px;
+}
+section.header p {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 30px;
+}
+section.header article.billetterie {
+  display: inline-block;
+  background-color: #ff0042;
+  border-radius: 20px;
+  transition: all 0.5s;
+  padding: 8px 25px 8px 15px;
+}
+section.header article.billetterie a {
+  font-size: 18px;
+  color: white;
+}
+section.header article.billetterie a img {
+  float: left;
+  width: 31px;
+  margin-right: 15px;
+}
+section.header article.billetterie:hover {
+  background-color: #7a0121;
+}
+section.navigationdeux {
+  width: 100%;
+  background-color: white;
+}
+section.navigationdeux nav.menudeux {
+  height: 45px;
+  width: 473px;
+  margin: 0 auto;
+}
+section.navigationdeux nav.menudeux ul {
+  font-size: 0;
+}
+section.navigationdeux nav.menudeux ul li {
+  display: inline-block;
+  font-size: 27px;
+  width: auto;
+  margin-right: 20px;
+}
+section.navigationdeux nav.menudeux ul li a {
+  display: block;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.3s;
+}
+section.navigationdeux nav.menudeux ul li a:hover {
+  border-bottom: solid 1px black;
+  text-decoration: none;
+}
+section.une {
+  background-color: #fff5e6;
+  padding: 60px 0;
+}
+section.une article {
+  width: 1330px;
+  margin: 0 auto;
+}
+section.une article h1 {
+  text-transform: uppercase;
+  font-size: 61px;
+  color: #070707;
+}
+section.une article p {
+  margin-top: -15px;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #070707;
+}
+section.une div.carousel {
+  margin: 0 auto;
+  width: 1330px;
+  height: 530px;
+  position: relative;
+  overflow: hidden;
+}
+section.une div.carousel div.carousel-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: slider 13000ms ease-in-out forwards infinite;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  80% {
+    transform: translatex(-200%);
+  }
+}
+.slider1 {
+  background-image: url(../img/dbz1.webp);
+  background-size: cover;
+  left: 0;
+}
+.slider2 {
+  background-image: url(../img/bleach1.webp);
+  left: 100%;
+}
+.slider3 {
+  background-image: url(../img/naruto1.webp);
+  left: 200%;
+}
+section.galerie {
+  background-color: #070707;
+  padding: 70px 0;
+}
+section.galerie h1 {
+  text-align: center;
+  color: #fff5e6;
+  font-size: 64px;
+}
+section.galerie p {
+  margin-top: -13px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff5e6;
+  font-size: 21px;
+}
+section.galerie div.photos {
+  width: 1601px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+section.galerie div.photos img {
+  width: 522px;
+  padding: 9px;
+}
+section.galerie div.photos img.top {
+  margin-top: -238px;
+}
+section.galerie div.photos img.small {
+  height: 472px;
+}
+section.galerie img#degrader {
+  position: inherit;
+  margin-top: -800px;
+  z-index: 2;
+}
+section.contact {
+  background-color: #fff5e6;
+  padding: 70px 0;
+  margin-top: -70px;
+}
+section.contact div.contact {
+  width: 1259px;
+  margin: 0 auto;
+}
+section.contact div.contact h1 {
+  text-transform: uppercase;
+  color: #070707;
+  font-size: 50px;
+}
+section.contact div.contact p {
+  font-size: 27px;
+  color: #070707;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+section.contact div.contact article {
+  width: 1259px;
+  margin: 0 auto;
+}
+section.contact div.contact article iframe {
+  float: left;
+  width: 648px;
+  height: 473px;
+  margin-right: 25px;
+}
+section.contact div.contact article h1 {
+  color: #070707;
+  font-size: 35px;
+}
+section.contact div.contact article p {
+  color: #070707;
+  margin-top: -8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section.contact div.contact article form input {
+  width: 586px;
+  background-color: #e1e1e1;
+  border: 0;
+  height: 47px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+section.contact div.contact article form input.name {
+  width: 286px;
+}
+section.contact div.contact article form input.lastname {
+  width: 286px;
+  float: right;
+}
+section.contact div.contact article form textarea {
+  height: 174px;
+  width: 586px;
+  padding: 10px;
+}
+section.contact div.contact article form input.go-form {
+  font-size: 17px;
+  width: 150px;
+  background-color: #ff0042;
+  text-align: center;
+  color: #fff5e6;
+  text-indent: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+section.contact div.contact article form input.go-form:hover {
+  background-color: #7a0121;
+}
+section.copyright {
+  background-color: #070707;
+  padding: 25px;
+}
+section.copyright article {
+  width: 405px;
+  margin: 0 auto;
+}
+section.copyright article div.billetterie {
+  background-color: #ff0042;
+  padding: 5px 15px 5px 10px;
+  border-radius: 20px;
+  transition: all 0.5s;
+  float: left;
+}
+section.copyright article div.billetterie a {
+  font-size: 16px;
+  color: white;
+}
+section.copyright article div.billetterie a img {
+  float: left;
+  width: 26px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+section.copyright article div.billetterie:hover {
+  background-color: #7a0121;
+}
+section.copyright article a.res img#reseaux {
+  width: 23px;
+  margin-left: 30px;
+  float: left;
+  margin-bottom: 30px;
+}
+section.copyright span {
+  display: block;
+  height: 1px;
+  background-color: #fdf7ef;
+  width: 70%;
+  margin: 0 auto;
+}
+section.copyright img#logo {
+  width: 250px;
+  margin: 25px auto;
+}
+section.copyright p {
+  text-align: center;
+  color: #fff5e6;
+}
+#scrolltop {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 10px;
+  bottom: 80px;
+  z-index: 1000;
+}
+section.headerexpo {
+  height: 730px;
+  background-image: url(../img/headerexpo.webp);
+  background-position: bottom;
+}
+section.headerexpo div.header {
+  width: 630px;
+  padding-top: 250px;
+  padding-left: 80px;
+  animation: anim-expo 2s linear;
+}
+section.headerexpo div.header img {
+  width: 630px;
+}
+section.headerexpo div.header p {
+  color: white;
+  font-size: 24px;
+  margin-left: 60px;
+}
+@keyframes anim-expo {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+section.navigationdeuxexpo {
+  width: 100%;
+  background-color: white;
+}
+section.navigationdeuxexpo nav.menudeux {
+  height: 45px;
+  width: 415px;
+  margin: 0 auto;
+}
+section.navigationdeuxexpo nav.menudeux ul {
+  font-size: 0;
+}
+section.navigationdeuxexpo nav.menudeux ul li {
+  display: inline-block;
+  font-size: 27px;
+  width: auto;
+  margin-right: 20px;
+}
+section.navigationdeuxexpo nav.menudeux ul li a {
+  display: block;
+  padding-top: 5px;
+}
+section.navigationdeuxexpo nav.menudeux ul li a img {
+  height: 35px;
+}
+section.expodroite {
+  background-color: #070707;
+  padding-top: 10px;
+}
+section.expodroite img#droite {
+  float: right;
+  margin-bottom: 45px;
+  transition: all 1s;
+}
+section.expodroite img#droite:hover {
+  margin-right: 10px;
+  scale: 1.01;
+}
+section.expodroite article#descriptiondroite {
+  padding-top: 205px;
+  padding-left: 125px;
+}
+section.expodroite article#descriptiondroite h1 {
+  color: #fff5e6;
+  font-size: 61px;
+  margin-bottom: 50px;
+}
+section.expodroite article#descriptiondroite p {
+  color: #fff5e6;
+  margin-bottom: 35px;
+  font-size: 33px;
+  line-height: 37px;
+}
+section.expodroite article#descriptiondroite p#textbleach {
+  font-size: 30px;
+}
+section.expodroite article#descriptiondroite img {
+  width: 280px;
+}
+section.expodroite span {
+  display: block;
+  height: 1px;
+  background-color: #fdf7ef;
+  width: 70%;
+  margin: 0 auto;
+}
+section.expodroite article#galerie {
+  padding-bottom: 100px;
+}
+section.expodroite article#galerie h1 {
+  color: #fff5e6;
+  font-size: 49px;
+  text-align: center;
+  margin-top: 40px;
+}
+section.expodroite article#galerie p {
+  color: #fff5e6;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+section.expodroite article#galerie div.photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.expodroite article#galerie div.photo a.gal {
+  width: 362px;
+  height: 560px;
+}
+section.expodroite article#galerie div.photo a.photos1 {
+  background-image: url(../img/figurinefreezer.webp);
+  background-position: center;
+  border: solid 1px white;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos1:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos2 {
+  background-image: url(../img/figurinetrunks.webp);
+  border: solid 1px white;
+  background-position: center;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos2:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos3 {
+  background-image: url(../img/figurinebuu.webp);
+  border: solid 1px white;
+  background-position: center;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos3:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos4 {
+  background-image: url(../img//figurinecell.webp);
+  border: solid 1px white;
+  background-position: center;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos4:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos9 {
+  background-image: url(../img/figurinehitsugaya.webp);
+  background-position: center;
+  border: solid 1px white;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos9:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos10 {
+  background-image: url(../img/figurinedeuxbleach.webp);
+  background-position: center;
+  border: solid 1px white;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos10:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos11 {
+  background-image: url(../img/figurineaizen.webp);
+  background-position: center;
+  border: solid 1px white;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos11:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expodroite article#galerie div.photo a.photos12 {
+  background-image: url(../img/figurineichigo.webp);
+  background-position: center;
+  border: solid 1px white;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expodroite article#galerie div.photo a.photos12:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expogauche {
+  background-color: #fff5e6;
+  padding-top: 10px;
+}
+section.expogauche img#gauche {
+  float: left;
+  margin-bottom: 45px;
+  transition: all 1s;
+  margin-left: 10px;
+}
+section.expogauche img#gauche:hover {
+  margin-left: 20px;
+  scale: 1.01;
+}
+section.expogauche article#descriptiongauche {
+  float: right;
+  padding-top: 175px;
+  padding-right: 115px;
+}
+section.expogauche article#descriptiongauche h1 {
+  color: #070707;
+  font-size: 61px;
+  margin-bottom: 50px;
+}
+section.expogauche article#descriptiongauche p {
+  color: #070707;
+  margin-bottom: 35px;
+  font-size: 30px;
+  line-height: 37px;
+}
+section.expogauche article#descriptiongauche img {
+  width: 200px;
+}
+section.expogauche span {
+  display: block;
+  height: 1px;
+  background-color: #070707;
+  width: 70%;
+  margin: 0 auto;
+}
+section.expogauche article#galerie {
+  padding-bottom: 100px;
+}
+section.expogauche article#galerie h1 {
+  color: #070707;
+  font-size: 49px;
+  text-align: center;
+  margin-top: 40px;
+}
+section.expogauche article#galerie p {
+  color: #070707;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+section.expogauche article#galerie div.photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.expogauche article#galerie div.photo a.gal {
+  width: 362px;
+  height: 560px;
+}
+section.expogauche article#galerie div.photo a.photos5 {
+  background-image: url(../img/figurinejiraya.webp);
+  background-position: center;
+  border: solid 1px #afafaf;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expogauche article#galerie div.photo a.photos5:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expogauche article#galerie div.photo a.photos6 {
+  background-image: url(../img/figurinepain.webp);
+  background-position: center;
+  border: solid 1px #afafaf;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expogauche article#galerie div.photo a.photos6:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expogauche article#galerie div.photo a.photos7 {
+  background-image: url(../img/figurinegaara.webp);
+  background-position: center;
+  border: solid 1px #afafaf;
+  border-right: 0;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expogauche article#galerie div.photo a.photos7:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+section.expogauche article#galerie div.photo a.photos8 {
+  background-image: url(../img/figurinesasuke.webp);
+  background-position: center;
+  border: solid 1px #afafaf;
+  background-size: 100%;
+  transition: all 1s;
+}
+section.expogauche article#galerie div.photo a.photos8:hover {
+  cursor: pointer;
+  background-size: 105%;
+}
+div#video_seiya {
+  background-color: #070707;
+}
+div#video_seiya2 {
+  background-color: #fcf2e3;
+}
+section.navmanga {
+  margin-top: -4px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+section.navmanga img#flechegauche {
+  background-color: #070707;
+  width: 50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+section.navmanga img#flechegauche:hover {
+  background-color: #ff0042;
+}
+section.navmanga img#boutonseiya {
+  width: 90px;
+  margin: 0 auto;
+  height: auto;
+}
+section.navmanga img#flechedroite {
+  height: auto;
+  background-color: #070707;
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+section.navmanga img#flechedroite:hover {
+  background-color: #ff0042;
+}
+#mhapart1 {
+  display: none;
+}
+#mhapart1 section.headermha {
+  background-color: #070707;
+  height: 1263px;
+  background-image: url(../img/demibeige.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 65px;
+  position: relative;
+}
+#mhapart1 section.headermha div.grey {
+  background-color: #131313;
+  width: 1754px;
+  height: 959px;
+  padding: 25px;
+  margin: 0 auto;
+}
+#mhapart1 section.headermha div.grey div.white {
+  background-color: #fcf2e3;
+  height: 100%;
+  width: 69%;
+  padding-top: 80px;
+  padding-right: 50px;
+  float: right;
+}
+#mhapart1 section.headermha div.grey div.white img {
+  float: right;
+}
+#mhapart1 section.headermha div.grey div.figurine {
+  width: 1754px;
+  height: 998px;
+  background-image: url(../img/headeravenir2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 26px;
+  margin-left: -25px;
+}
+section.headerseiya {
+  background-color: #070707;
+  height: 1263px;
+  background-image: url(../img/demibeige.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 65px;
+  position: relative;
+}
+section.headerseiya div.grey {
+  background-color: #131313;
+  width: 1754px;
+  height: 959px;
+  padding: 25px;
+  margin: 0 auto;
+}
+section.headerseiya div.grey div.white {
+  background-color: #fcf2e3;
+  height: 100%;
+  width: 65%;
+  padding-top: 80px;
+  padding-right: 50px;
+  float: right;
+}
+section.headerseiya div.grey div.white img {
+  float: right;
+}
+section.headerseiya div.grey div.figurine {
+  width: 1754px;
+  height: 998px;
+  background-image: url(../img/headeravenir.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 26px;
+  margin-left: -25px;
+}
+section.exposeiyadroite {
+  margin-top: -100px;
+  padding-top: 10px;
+  z-index: 10;
+  position: relative;
+}
+section.exposeiyadroite img#droite {
+  float: right;
+  margin-bottom: 45px;
+  transition: all 1s;
+}
+section.exposeiyadroite img#droite:hover {
+  margin-right: 10px;
+  scale: 1.01;
+}
+section.exposeiyadroite article#descriptiondroite {
+  padding-top: 205px;
+  padding-left: 125px;
+}
+section.exposeiyadroite article#descriptiondroite h1 {
+  color: #fff5e6;
+  font-size: 61px;
+  margin-bottom: 50px;
+}
+section.exposeiyadroite article#descriptiondroite p {
+  color: #fff5e6;
+  margin-bottom: 35px;
+  font-size: 33px;
+  line-height: 37px;
+}
+section.exposeiyadroite article#descriptiondroite p#textbleach {
+  font-size: 30px;
+}
+section.exposeiyadroite article#descriptiondroite img {
+  width: 280px;
+}
+section.exposeiyadroite div.nommusee2 {
+  display: flex;
+  justify-content: center;
+}
+section.exposeiyadroite div.nommusee2 span {
+  width: 140px;
+  height: 2px;
+  background-color: #fcf2e3;
+  display: block;
+  margin-top: 8px;
+}
+section.exposeiyadroite div.nommusee2 span.spangauche {
+  margin-top: 13px;
+  margin-right: 15px;
+}
+section.exposeiyadroite div.nommusee2 span.spandroite {
+  margin-top: 13px;
+  margin-left: 15px;
+}
+section.exposeiyadroite div.nommusee2 span.rond {
+  width: 12px;
+  height: 12px;
+  background-color: #070707;
+  border-radius: 50%;
+  border: solid 3px #fcf2e3;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+section.exposeiyadroite div.nommusee2 a {
+  font-size: 16px;
+  color: white;
+}
+section.exposeiyadroite div.nommusee2 a img {
+  float: left;
+  width: 26px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+section.exposeiyadroite div.nommusee2 a img.twit {
+  margin-left: 30px;
+}
+section.exposeiyadroite div.nommusee2 a img.pint {
+  margin-right: 30px;
+}
+section.exposeiyadroite article#texteseiya {
+  padding: 70px 0;
+}
+section.exposeiyadroite article#texteseiya h1 {
+  color: #fff5e6;
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+section.exposeiyadroite article#texteseiya p {
+  color: #fff5e6;
+  margin-bottom: 35px;
+  font-size: 25px;
+  text-align: center;
+}
+#mhapart2 {
+  display: none;
+}
+section.galerieseiya {
+  background-color: #fcf2e3;
+  padding: 70px 0;
+}
+section.galerieseiya h1 {
+  text-align: center;
+  color: #070707;
+  font-size: 64px;
+}
+section.galerieseiya p {
+  margin-top: -13px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #070707;
+  font-size: 21px;
+}
+section.galerieseiya div.photos {
+  width: 1601px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+section.galerieseiya div.photos img {
+  width: 522px;
+  padding: 9px;
+}
+section.galerieseiya div.photos img.top {
+  margin-top: -238px;
+}
+section.galerieseiya div.photos img.small {
+  height: 472px;
+}
+section.galerieseiya img#degrader {
+  position: inherit;
+  margin-top: -800px;
+  z-index: 2;
+}
+section.footer {
+  height: 572px;
+  background-image: url(../img/footer.webp);
+  padding-top: 200px;
+  padding-left: 80px;
+}
+section.footer h1 {
+  text-transform: uppercase;
+  color: #070707;
+  font-size: 58px;
+  line-height: 52px;
+}
+section.footer p {
+  font-size: 23px;
+  color: #070707;
+  margin-bottom: 30px;
+}
+section.footer article.billetterie {
+  display: inline-block;
+  background-color: #ff0042;
+  border-radius: 20px;
+  transition: all 0.5s;
+  padding: 8px 25px 8px 15px;
+}
+section.footer article.billetterie a {
+  font-size: 18px;
+  color: white;
+}
+section.footer article.billetterie a img {
+  float: left;
+  width: 31px;
+  margin-right: 15px;
+}
+section.footer article.billetterie:hover {
+  background-color: #7a0121;
+}
+section.footer2 {
+  height: 572px;
+  background-image: url(../img/headedragonball.webp);
+  padding-top: 200px;
+  padding-left: 80px;
+}
+section.footer2 h1 {
+  text-transform: uppercase;
+  color: #fcf2e3;
+  font-size: 58px;
+  line-height: 52px;
+}
+section.footer2 p {
+  font-size: 23px;
+  color: #fcf2e3;
+  margin-bottom: 30px;
+}
+section.footer2 article.billetterie {
+  display: inline-block;
+  background-color: #ff0042;
+  border-radius: 20px;
+  transition: all 0.5s;
+  padding: 8px 25px 8px 15px;
+}
+section.footer2 article.billetterie a {
+  font-size: 18px;
+  color: white;
+}
+section.footer2 article.billetterie a img {
+  float: left;
+  width: 31px;
+  margin-right: 15px;
+}
+section.footer2 article.billetterie:hover {
+  background-color: #7a0121;
+}

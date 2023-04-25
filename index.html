@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil </title>
+    <link rel="icon" type="image/png" href="img/icone.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+
+
+    <section class="top">
+        <article class="billetterie">
+            <a href=""><img src="img/ticket.png" alt="">Billetterie</a>
+        </article>
+        <article class="connect">
+            <a href=""><img src="img/cheveuxsaiyan.webp" alt="">Se connecter</a>
+        </article>
+        <div class="billet">
+            <img src="img/logo.png" alt="" id="logo">
+            <span></span>
+        </div>
+        <div class="clear"></div>
+        <!-- NAV -->
+        <nav class="menu" id="nav">
+            <ul>
+                <li><a class="on" href="index.html">Accueil</a></li>
+                <li><a href="expo.html">En ce moment</a></li>
+                <li><a href="avenir.html">Expo à suivre</a></li>
+            </ul>
+        </nav>
+    </section>
+
+        <section class="header"> 
+            <h1>à la rencontre<br>des chevaliers d’or</h1>
+            <p>À partir du 10 Mars 2023</p>
+            <article class="billetterie">
+                <a href=""><img src="img/oeil.webp" alt="">Découvrir</a>
+            </article>
+    </section>
+
+    <section class="navigationdeux">
+    <!-- NAV -->
+         <nav class="menudeux" id="nav">
+             <ul>
+                 <li><a href="#une" class="js-scrollTo">À la une</a></li>
+                 <li><a href="#galerie" class="js-scrollTo">Galerie</a></li>
+                 <li><a href="#map" class="js-scrollTo">Où nous trouver</a></li>
+                 <li><a href="#map" class="js-scrollTo">Contact</a></li>
+             </ul>
+         </nav>
+        </section>
+
+<section class="une" id="une">
+    <article>
+        <h1>À la une</h1>
+        <P>Découvrer les expositions du musée</P>
+    </article>
+        <div class="carousel">
+            <div class="carousel-img slider1">
+            </div>
+            <div class="carousel-img slider2">
+              </div>
+              <div class="carousel-img slider3">
+              </div>
+        </div>
+    </section>
+
+    <section class="galerie" id="galerie">
+        <h1>Galerie</h1>
+        <P>Pour vous donner un avant goût</P>
+        <div class="photos">
+            <img src="img/bleachgalerie1.webp" alt="">
+            <img src="img/dbzgalerie1.webp" alt="" class="small">
+            <img src="img/narutogalerie1.webp" alt="">
+            <img src="img/bleachgalerie2.webp" alt="" class="small">
+            <img src="img/dbzgalerie2.webp" alt="" class="top">
+            <img src="img/narutogalerie2.webp" alt="" class="small">
+        </div>
+        <img src="img/degradé.png" alt="" id="degrader">
+        <div class="clear"></div>
+    </section>
+
+    <section class="contact" id="map">
+        <div class="contact">
+        <h1>Où NOUS TROUVER</h1>
+        <p>Pas de panique, on vous donne la carte !</p>
+        <article>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20335.748546813433!2d2.7702175499999995!3d50.42305725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd3a13d480ae3d%3A0x4d77a3ead0e3bec4!2zTGnDqXZpbg!5e0!3m2!1sfr!2sfr!4v1675175012318!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1>CONTACT</h1>
+            <p>Une remarque a nous faire ? Contacter nous !</p>
+            <form method="post" action="formulaire.php">
+                <input class="name" type="text" name="nom" id="nom" placeholder="Votre nom:"/>
+                <input class="lastname" type="text" name="prenom" id="prenom" placeholder="Votre prénom:"/>
+                <input type="text" name="mail" id="mail" placeholder="E-mail:">
+                <input type="text" name="subject" id="subject" placeholder="sujet:">
+                <textarea name="message" id="message" placeholder="Votre Message:"></textarea>
+               <br/>
+               <input class="go-form" name="submit" type="submit" value="Envoyer">
+            </form>
+        </article>
+    </div>
+    </section>
+
+    <section class="copyright">
+        <article>
+            <div class="billetterie">
+                 <a href=""><img src="img/ticket.png" alt="">Billetterie</a>
+            </div>
+        <a href="" class="res"><img src="img/logo twitter.webp" alt="" id="reseaux"></a>
+        <a href="" class="res"><img src="img/logo insta.webp" alt="" id="reseaux"></a>
+        <a href="" class="res"><img src="img/logo fb.webp" alt="" id="reseaux"></a>
+        <a href="" class="res"><img src="img/logo youtube.webp" alt="" id="reseaux"></a>
+        <a href="" class="res"><img src="img/logo fbpinterest.webp" alt="" id="reseaux"></a>
+    </article>
+    <div class="clear"></div>
+    <span></span>
+    <img src="img/logo.png" alt="" id="logo">
+    <p>Design by Alberick dupont © Copyright 2023 - tout droits réservés</p>
+        
+    </section>
+
+    <a class="none" href="" id="scrolltop"><img src="img/flecheup.webp" alt=""></a>
+
+</body>
+</html>
